@@ -1,7 +1,7 @@
-import App from './App';
+// import App from './App';
+import CreatePost from './CreatePost';
 import Home from './Home';
 import Navbar from './Navbar';
-import CreatePost from './CreatePost';
 import PostDetail from './PostDetail';
 
-export { App, Navbar, Home, CreatePost, PostDetail };
+export {Navbar, Home, CreatePost, PostDetail };
