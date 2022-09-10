@@ -1,3 +1,4 @@
+// var db = firebase.firestore();
 import firebase from 'firebase/compat/app';
 import 'firebase/compat/auth';
 import 'firebase/compat/firestore';
@@ -11,6 +12,8 @@ const firebaseConfig = {
     messagingSenderId: "606895579060",
     appId: "1:606895579060:web:c1c2b8e677d697237b9ce1",
 };
+
+firebase.initializeApp(firebaseConfig);
 
 
 export const firestore = firebase.firestore();
